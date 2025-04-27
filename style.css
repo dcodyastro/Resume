@@ -1,0 +1,56 @@
+/* Applies to the whole page */
+body {
+    background-color: #f0f0f0; /* Light grey background */
+    font-family: Arial, sans-serif; /* Clean, modern font */
+    margin: 0; /* Removes default browser margins */
+    padding: 20px; /* Adds space inside the page */
+}
+
+/* Makes your main name/title stand out */
+h1 {
+    color: #333; /* Dark gray color */
+    text-align: center; /* Centers your name */
+}
+
+/* Styles all section titles */
+h2 {
+    color: #555; /* Medium gray */
+    border-bottom: 2px solid #ccc; /* Adds a thin line under headings */
+    padding-bottom: 5px; /* Little space under text */
+    margin-top: 30px; /* Space above each new section */
+}
+
+/* Styles all normal text */
+p {
+    color: #666; /* Lighter gray */
+    line-height: 1.6; /* Makes lines have nice breathing room */
+}
+
+/* Styles the bullet list */
+ul {
+    list-style-type: square; /* Changes bullets from circles to squares */
+    padding-left: 20px; /* Moves list items slightly to the right */
+}
+
+/* Styles each list item */
+li {
+    margin-bottom: 8px; /* Adds space between each skill */
+}
+
+/* Styles your button */
+button {
+    display: block; /* Makes button take its own line */
+    margin: 30px auto; /* Center the button horizontally */
+    padding: 10px 20px; /* Space inside the button */
+    font-size: 16px; /* Bigger readable text */
+    background-color: #007BFF; /* Nice blue */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Hand pointer when hovering */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker blue when mouse is over button */
+}
