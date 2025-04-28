@@ -1,67 +1,44 @@
-/* General Page Setup */
+/* Applies to the whole page */
 body {
-    background-color: #e0f7fa; /* Light blue background (more noticeable than plain white) */
-    font-family: 'Arial', sans-serif; /* Clean readable font */
-    margin: 0;
-    padding: 20px;
+    background-color: #f0f0f0; /* Light grey background */
+    font-family: Arial, sans-serif; /* Clean, modern font */
+    margin: 0; /* Removes default browser margins */
+    padding: 20px; /* Adds space inside the page */
 }
 
-/* Main container for your resume */
-.container {
-    background-color: white; /* White card for your actual resume info */
-    max-width: 800px; /* Limits width to look clean */
-    margin: 40px auto; /* Centers it horizontally */
-    padding: 30px;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-}
-
-/* Your main name/title */
+/* Makes your main name/title stand out */
 h1 {
-    text-align: center;
-    font-size: 36px;
-    color: #333; /* Dark gray */
-    margin-bottom: 10px;
+    color: #333; /* Dark gray color */
+    text-align: center; /* Centers your name */
 }
 
-/* Subtitle under your name (your job title) */
-.subtitle {
-    text-align: center;
-    font-size: 20px;
-    color: #555; /* Slightly lighter gray */
-    margin-top: -10px;
-    margin-bottom: 30px;
-}
-
-/* Section titles like About Me, Experience, Skills */
+/* Styles all section titles */
 h2 {
-    color: #333;
-    border-bottom: 2px solid #ccc; /* Underline under section titles */
-    padding-bottom: 5px;
-    margin-top: 40px;
+    color: #555; /* Medium gray */
+    border-bottom: 2px solid #ccc; /* Adds a thin line under headings */
+    padding-bottom: 5px; /* Little space under text */
+    margin-top: 30px; /* Space above each new section */
 }
 
-/* Any general paragraph text */
+/* Styles all normal text */
 p {
-    color: #666;
-    line-height: 1.6;
+    color: #666; /* Lighter gray */
+    line-height: 1.6; /* Makes lines have nice breathing room */
+}
+.subtitle {
+    text-align: center; /* Centers the text */
+    font-size: 20px; /* Optional: slightly bigger text */
+    color: #555; /* Optional: make it a soft dark gray */
+    margin-top: -10px; /* Optional: pull it a little closer to your name */
 }
 
-/* Lists (for skills, job duties, etc.) */
+/* Styles the bullet list */
 ul {
-    list-style-type: square; /* Square bullets */
-    padding-left: 20px;
+    list-style-type: square; /* Changes bullets from circles to squares */
+    padding-left: 20px; /* Moves list items slightly to the right */
 }
 
+/* Styles each list item */
 li {
-    margin-bottom: 8px;
-}
-
-/* Emphasized job titles and locations */
-strong {
-    font-weight: bold;
-}
-
-em {
-    font-style: italic;
+    margin-bottom: 8px; /* Adds space between each skill */
 }
