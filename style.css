@@ -1,72 +1,63 @@
-<!DOCTYPE html> <!-- Tells the browser this is an HTML5 document -->
-<html lang="en"> <!-- The start of your webpage -->
+</html>
+/* Applies to the whole page */
+body {
+    background-color: #e0f7fa; /* Light grey background */
+    font-family: Arial, sans-serif; /* Clean, modern font */
+    margin: 0; /* Removes default browser margins */
+    padding: 20px; /* Adds space inside the page */
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
-    <link rel="stylesheet" href="style.css"> <!-- This connects your CSS -->
-  </head>
+/* Makes the main name/title stand out */
+h1 {
+    color: #333; /* Dark gray color */
+    text-align: center; /* Centers your name */
+}
 
-<body>
-    <h1>D'Cody Burnside</h1>
+/* Styles all section titles */
+h2 {
+    color: #333; /* Medium gray */
+    border-bottom: 2px solid #; /* Adds a thin line under headings */
+    padding-bottom: 5px; /* Little space under text */
+    margin-top: 30px; /* Space above each new section */
+}
 
-    <p class="subtitle"><strong><em>Aspiring Game Developer | Software Engineer</em></strong></p>
+/* Styles all normal text */
+p {
+    color: #333232; /* Lighter gray */
+    line-height: 1.6; /* Makes lines have nice breathing room */
+}
+.subtitle {
+    text-align: center; /* Centers the text */
+    font-size: 20px; /* Optional: slightly bigger text */
+    color: #555; /* Optional: make it a soft dark gray */
+    margin-top: -10px; /* Optional: pull it a little closer to your name */
+}
 
-    <h2>About Me</h2>
-    <p>
-        Hi there! I'm <strong>D'Cody Burnside</strong>, a passionate Junior Software Developer who loves crafting high-performance systems and making my own functions for game development, through code.<br><br>
-        Whether it's building custom PCs, optimizing system performance, or learning new programming languages like C++ and C#, I approach every challenge with energy and creativity.<br><br>
-        I'm currently expanding my skills in Computer Information Science at Kingsborough Community College, and I'm excited to keep growing in the world of technology and game development!<br><br>
-        Currently I'm studying to pass my A+ and database structures exams during in school and my own personal free time. As well as learning Linux and Unreal Engine 4
-    </p>
-   
-   
-    <h2>Skills</h2>
-   
-        <p>HTML, CSS, JavaScript, Merchandise Receiving and Handling, C++, Java, Python, Problem Solving Abilities
-         Data Entry, Ticket System Management, System Assembly, Advanced Troubleshooting<br>
-        Performance Optimization, Hardware Upgrades, Hardware Compatibility, Remote Diagnostics, Desktop/Engineering
-    </p>
+/* Styles the bullet list */
+ul {
+    list-style-type: square; /* Changes bullets from circles to squares */
+    padding-left: 20px; /* Moves list items slightly to the right */
+}
 
-    <h2>Work Experience</h2>
-    <p><strong>Streamline Dental Lab</strong> <em>New York, New York (January 2023 - March 2025)</em><br>
-        Shipping/Reciving <br>
-        ● Transferred data from hard copies to Microsoft Access<br>
-        ● Organizing and storing upwards of 500 files into Microsoft Excel<br>
-        ● Records files electronically to reduce paper files and secure data<br>
-        ● Accurately shipped upwards of 800 cases per week to doctors and customers world wide</p>
+/* Styles each list item */
+li {
+    margin-bottom: 8px; /* Adds space between each skill */
+}
 
-    <p><strong>RiteAid</strong> <em>New York New York (Aug 2021 - Nov 2022)</em><br>
-        ● Accurately managed point of sale transactions, including cash handling and card processing<br>
-        ● Maintained optimal inventory levels by strategically stocking shelves and organizing
-        merchandise, improving store performance, workflow, and overall store presentability<br>
-        ● Delivered exceptional customer service by assisting a diverse range of customers exceeding
-        upwards of 20 - 30 customers per day, with purchases and returns
-    </p>
+/* Styles the button */
+button {
+    display: block; /* Makes button take its own line */
+    margin: 30px auto; /* Center the button horizontally */
+    padding: 10px 20px; /* Space inside the button */
+    font-size: 16px; /* Bigger readable text */
+    background-color: #007BFF; /* Nice blue */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Hand pointer when hovering */
+}
 
-    <h2>Education</h2>
-    <p>Kings Borough Community College - (2024-2025) <br> Computer Information Science </p>
-    <h2> Projects</h2>
-    <ul>
-        <li>Basic inventory system </li>
-        <li> Random number generator</li>
-        <li>Quest tracker</li>
-        <li> Basic Menu</li>
-        <li> Viritual Machine in Ubuntu and Kali Linux</li>
-        <li> Resume webpage</li>
-    </ul>
-    <h2>Certifications</h2>
-    <ul>
-        <li>CompTIA A+(in progress)</li>
-        <li>Microsoft Office Specialist Access(in progress)</li>
-    </ul>
-    <h2>Contact</h2>
-    <p><strong>Email:</strong> Dcodyjade@gmail.com</p>
-    <p><strong>Phone Number:</strong> 9179376752</p>
-
-   
-    <button onclick="showMessage()">Click Me!</button>
-
-    <script src="script.js"></script>
-</body>
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker blue when mouse is over button */
+}
