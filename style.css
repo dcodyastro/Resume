@@ -1,0 +1,27 @@
+/* Base */
+body { font-family: Arial, sans-serif; margin: 24px; line-height: 1.5; }
+.container { max-width: 900px; margin: 0 auto; }
+
+/* Header */
+.top { display: flex; gap: 16px; align-items: center; }
+.headshot { width: 140px; height: 140px; object-fit: cover; border-radius: 8px; }
+
+/* Colored separators */
+.rule { border: 0; height: 0; border-top: 6px solid #000; margin: 24px 0; }
+.rule.red    { border-top-color: #7c2319; }
+.rule.blue   { border-top-color: #226796; }
+.rule.green  { border-top-color: #20ac5a; }
+.rule.purple { border-top-color: #773096; }
+.rule.orange { border-top-color: #b35e14; }
+.rule.teal   { border-top-color: #14967c; }
+
+/* Picture bullets — requires bullet.png in folder */
+.icon-bullets { list-style-image: url('bullet.png'); padding-left: 28px; }
+.icon-bullets li { margin: 6px 0; }
+
+/* Small polish */
+h1 { margin: 0; }
+h2 { margin: 0 0 8px; }
+pre { background: #f6f8fa; padding: 10px; border-radius: 6px; overflow: auto; }
+a { color: #0b66c3; text-decoration: none; }
+a:hover { text-decoration: underline; }
